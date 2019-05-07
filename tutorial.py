@@ -1,3 +1,8 @@
+from models import Variable, RwrAccount, RwrAccountStat
+from disco.types.user import GameType, Game, Status
+from disco.client import Client, ClientConfig
+from disco.util.logging import setup_logging
+from disco.bot import Bot, Plugin, BotConfig
 from rwrs import app, cache, db
 from . import constants, utils
 from tabulate import tabulate
@@ -594,7 +599,7 @@ class RwrsBot:
         setup_logging(level=logging.WARNING)
 
         self.client_config = ClientConfig()
-        self.client_config.token = app.config['Bm7ITbmb1Y6q6Kp7mt6OF-xI_kj_LwXY']
+        self.client_config.token = app.config['DISCORD_BOT_TOKEN']
 
         self.client = Client(self.client_config)
 
