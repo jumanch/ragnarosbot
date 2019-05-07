@@ -1,4 +1,4 @@
-git+https://github.com/b1naryth1ef/disco@rewrite
+git+https://github.com/b1naryth1ef/disco
 gevent==1.3.7
 
 holster==2.0.0
