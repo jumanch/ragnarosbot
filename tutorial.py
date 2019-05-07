@@ -1,4 +1,4 @@
-rom rwrs import app, cache, db
+from rwrs import app, cache, db
 from . import constants, utils
 from tabulate import tabulate
 from rwr.player import Player
