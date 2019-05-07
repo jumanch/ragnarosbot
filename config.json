@@ -1,0 +1,8 @@
+{
+    "token": "Bm7ITbmb1Y6q6Kp7mt6OF-xI_kj_LwXY",
+    "bot": {
+      "plugins": [
+        "plugins.tutorial"
+      ]
+    }
+  }
