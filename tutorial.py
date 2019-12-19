@@ -10,4 +10,4 @@ class TutorialPlugin(Plugin):
 
 
 client = TutorialPlugin()
-client.run('Bm7ITbmb1Y6q6Kp7mt6OF-xI_kj_LwXY')
+client.run('5SpcgbVpQEbc3s8iLEyr9jh8D7uSy2Sb')
